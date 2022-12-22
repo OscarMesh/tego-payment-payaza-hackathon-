@@ -1,0 +1,122 @@
+.modal{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.modal p{
+    font-size: 0.9rem;
+}
+.modal h3 {
+    font-size: 1.1rem;
+}
+
+.modal .containers{
+    max-width: 80%;
+    height: 755px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.modal .col1{
+    width: 35%;
+    padding: 2rem;
+    background: #F8F8F8;
+}
+
+.col1 p{
+    margin: 1rem 0;
+}
+
+.col1_sub2{
+    background: #FFFFFF;
+    border: 1px solid #2357D1;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    width: 313px;
+    height: 188px;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+.transfer_col div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.transfer_col h3{
+    margin: 1rem 0;
+}
+.Agent_col div {
+    padding: 1rem;
+}
+
+.col2{
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+.col2_sub1 h3{
+    text-align: end;
+}
+.col2_sub1 .nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 1rem auto 3rem;
+}
+.col2_sub1 .nav .blue{
+    width: 24px;
+    height: 24px;
+    border-radius: 160px;
+    background: #2357D1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.col2_sub1 .nav .plain{
+    width: 24px;
+    height: 24px;
+    border-radius: 160px;
+    background: #F1F1F1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.input {
+    padding: 18px 32px;
+    width: 100%;
+    /* max-width: 600px; */
+    background: transparent;
+    border: none;
+    margin: 1rem;
+    background-color: #F5FCFF;
+}
+
+@media screen and (max-width: 800px) {
+    .containers{
+        flex-direction: column;
+        width: 100%;
+        /* background-color: #F1F1F1; */
+    }
+    .modal .col1{
+        width: 100%;
+        max-width: 100%;
+        padding: 2rem;
+        background: #F8F8F8;
+    }
+
+    .col1_sub2{
+        border-radius: 16px;
+        width: 280px;
+        height: 200px;
+        /* width: 113px;
+        height: 18px; */
+    }
+    .modal p {
+        max-width: 80%;
+    }
+    .col2_sub1 h3{
+        text-align: center;
+    }
+}
+
