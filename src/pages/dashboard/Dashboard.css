@@ -1,0 +1,10 @@
+.dashboard {
+  padding: 80px;
+  background-color: #f8f8f8;
+}
+
+.dashboard h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #777b7d;
+}
