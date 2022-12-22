@@ -25,7 +25,7 @@
 .pend{
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0q`;
+  margin: 1rem 0;
 }
 .pending{
   display: flex;
