@@ -8,12 +8,12 @@ import Modal3 from "./pages/Modal3/Modal3";
 function App() {
   return (
     <div className="App">
-      <Modal3/>
+      
       <Router>
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route exact path="/" element={<Login />} /> */}
-          {/* <Route exact path="/signup" element={<Signup1 />}/> */}
+          <Route exact path="/" element={<Login />} />
+          <Route exact path="/signup" element={<Signup1 />}/>
 
         </Routes>
       </Router>
