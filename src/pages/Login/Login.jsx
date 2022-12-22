@@ -43,7 +43,9 @@ const Login = () => {
               </Link>
             </div>
           </form>
-          <button className="btn ">Login</button>
+          <Link to="/dashboard">
+            <button className="btn ">Login</button>
+          </Link>
         </div>
       </div>
     </div>
